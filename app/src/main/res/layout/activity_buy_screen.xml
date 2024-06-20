@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E8E3BB"
+    tools:context=".BuyScreenActivity">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_back"
+        android:id="@+id/back"
+        android:padding="8dp"
+        />
+
+    <TextView
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to My Age"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You should register for a long term for a better experience"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="#DC2F2F"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/age5"
+        android:layout_gravity="center"
+        android:background="@drawable/back_button"
+        android:text="Age 5"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/age10"
+        android:layout_gravity="center"
+        android:background="@drawable/back_button"
+        android:text="Age 10"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/age15"
+        android:layout_gravity="center"
+        android:background="@drawable/back_button"
+        android:text="Age 15"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ageSub"
+        android:layout_gravity="center"
+        android:background="@drawable/back_button"
+        android:text="Long-term registrations"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/finish"
+        android:layout_gravity="center"
+        android:background="@drawable/back_button"
+        android:text="Finish"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
